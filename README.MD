@@ -28,3 +28,22 @@ O sistema fará um scan da credencial do participante para permitir a entrada no
 ### Requisitos não-funcionais
 
 - [ ] O check-in no evento será realizado através de um QRCode;
+
+
+## Anotações
+
+Pass in - REST API that uses microframework Fastify, ORM Prisma and DB SQLite
+
+HTTP Methods (GET, POST, PUT, DELETE, PATCH, HEAD, OPTIONS...)
+Request body (POST, PUT)
+Search/Query parameters (GET, eg. `GET http://localhost:3333/users?name=Diego`)
+Route parameters (PUT, DELETE, PATCH, eg. `http://localhost:3333/users/1`)
+Headers (Context)
+
+Connect to databases
+Native driver / Query builders / Object Relational Mapping (ORM)
+
+20x - Success
+30x - Redirect
+40x - Client
+50x - Server
